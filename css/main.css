@@ -158,14 +158,22 @@ header {
     margin-right: 10px;
 }
 
-button.view-btn {
+.home-btn {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 700;
-    background-image: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
     border-radius: 10px;
     border: none;
     color: #fff;
+    text-transform: uppercase;
+}
+
+button.view-btn {
+    background-image: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+}
+
+button.view-btn:hover {
+    background-image: linear-gradient(230deg, #3478F6 100%, #004FE1 0%);
 }
 
 i.fas.fa-plus-circle {
@@ -178,14 +186,11 @@ i.fas.fa-user-plus {
 
 button.start-btn {
     background-image: linear-gradient(-320deg, #F5B016 0%, #FF8800 100%);
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
     margin-left: 15px;
+}
+
+button.start-btn:hover {
+    background-image: linear-gradient(-320deg, #FF8800 100%, #F5B016 0%);
 }
 
 section#brand {
@@ -424,9 +429,10 @@ span.course-price {
 }
 
 .instructor a {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-left: 18px;
 }
 
 .courses-description p {
@@ -467,5 +473,107 @@ span.course-price {
 
 
 /* ..................................
- 01. footer CSS 
+ 04. discover section CSS 
+.................................. */
+
+#discover {
+    color: #fff;
+    background: #7665FF;
+    position: relative;
+    padding-bottom: 150px;
+    z-index: -1;
+}
+
+#discover::before {
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/funfact_bg.png');
+    position: absolute;
+}
+
+.discover-ctn h2 {
+    font-size: 48px;
+    line-height: 63px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.discover-ctn p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.dscvr-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.dscvr-btn:hover {
+    background: #F20F10;
+}
+
+.dscvr-view {
+    background: #04CA70;
+}
+
+.dscvr-user {
+    background: #f5b016;
+    margin-left: 20px;
+}
+
+
+/* ..................................
+ 05. counting section CSS 
+.................................. */
+
+.counting-ctn {
+    background: #06CA77;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: -180px;
+}
+
+.plus {
+    color: #fff;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.count {
+    color: #fff;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.counting-item p {
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+/* ..................................
+ 05. footer CSS 
+.................................. */
+
+
+/* ..................................
+ 06. footer CSS 
 .................................. */
