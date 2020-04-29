@@ -529,13 +529,6 @@ span.course-price {
     background: #04CA70;
 }
 
-
-/* .discover-ctn button:hover {
-    background: #F20F10;
-}
-
-.dscvr-view:hover {} */
-
 .dscvr-user {
     background: #f5b016;
     margin-left: 20px;
@@ -661,5 +654,26 @@ span.course-price {
 
 
 /* ..................................
- 07. footer CSS 
+ 07. instructor section CSS 
+.................................. */
+
+#instructor {}
+
+.instructor-area {
+    padding: 50px;
+    border-right: 1px solid #5555554f;
+}
+
+.turitor-area {
+    padding: 50px;
+}
+
+
+/* ..................................
+ 08. footer CSS 
+.................................. */
+
+
+/* ..................................
+ 09. footer CSS 
 .................................. */
