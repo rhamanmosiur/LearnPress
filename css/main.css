@@ -209,7 +209,7 @@ section#brand {
     background-repeat: no-repeat;
     padding: 200px 0;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .home:before {
@@ -514,11 +514,11 @@ span.course-price {
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 700;
-    background-image: linear-gradient(230deg, #004FE1 0%, #3478F6 100%);
     border-radius: 5px;
     border: none;
     color: #fff;
     text-transform: uppercase;
+    z-index: 10;
 }
 
 .dscvr-btn:hover {
@@ -528,6 +528,13 @@ span.course-price {
 .dscvr-view {
     background: #04CA70;
 }
+
+
+/* .discover-ctn button:hover {
+    background: #F20F10;
+}
+
+.dscvr-view:hover {} */
 
 .dscvr-user {
     background: #f5b016;
@@ -570,10 +577,89 @@ span.course-price {
 
 
 /* ..................................
- 05. footer CSS 
+ 06. people saying section  CSS 
 .................................. */
+
+.people-saying-title span {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #f5b016;
+}
+
+.people-saying-title h2 {
+    font-size: 48px;
+    line-height: 63px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+.people-saying-title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.caret-square i {
+    font-size: 65px;
+    margin-top: 80px;
+    color: #0E5AE6;
+}
+
+.testimonial-item {
+    box-shadow: 2px 4px 10px #00000047;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.testimonial-item ul li {
+    color: #F5B016;
+}
+
+.testimonial-item h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    margin: 25px 0;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.people-saying-title {
+    margin-bottom: 100px;
+}
+
+.user-area h4 {
+    border-top: 1px solid #5555554f;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.user-area img {
+    margin-bottom: -90px;
+}
+
+.people-saying .item-1 {
+    border-top: 5px solid #05CA75;
+}
+
+.people-saying .item-2 {
+    border-top: 5px solid #7665FF;
+}
+
+.people-saying .item-3 {
+    border-top: 5px solid #F20F10;
+}
 
 
 /* ..................................
- 06. footer CSS 
+ 07. footer CSS 
 .................................. */
