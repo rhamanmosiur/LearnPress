@@ -111,10 +111,15 @@ a:hover {
 
 header {
     border-top: 1px solid #0956E5;
+    background: #fff;
+}
+
+.stycky-bg {
+    background: #ffffff;
+    box-shadow: 0 8px 6px -6px #00000099;
 }
 
 .navbar {
-    background: #fff;
     color: black;
     min-height: 100px;
 }
@@ -124,10 +129,31 @@ header {
     line-height: 26px;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
+    margin: 0 3px;
 }
 
 .navbar ul li a:hover {
     color: #3478f6;
+}
+
+.navbar ul li a::before {
+    content: '';
+    bottom: 0;
+    left: 5;
+    height: 4px;
+    width: 80%;
+    background: #004FE1;
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+.navbar ul li:hover a::before {
+    opacity: 1;
+    transform: scaleX(1);
 }
 
 .fa-search {
@@ -148,10 +174,10 @@ header {
     color: #fff;
     border: none;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: capitalize;
-    padding: 10px 20px;
+    padding: 8px 14px;
 }
 
 .user i {

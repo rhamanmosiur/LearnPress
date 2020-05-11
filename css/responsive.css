@@ -1,17 +1,180 @@
 /* XL Device :1200px. */
+
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
-/* LG Device :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {}
 
 /* LG Device :992px. */
-@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about-item-style h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .people-saying-title h2 {
+        font-size: 40px;
+    }
+    #instructor h2 {
+        font-size: 32px;
+    }
+}
+
 
 /* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {}
 
-/* Extra small Device. */
-@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-item-style h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .about-item-area {
+        margin-bottom: 32px;
+    }
+    .about-item-style p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .testimonial-item.item-3.text-center {
+        display: none;
+    }
+    .people-saying-title h2 {
+        font-size: 23px;
+        line-height: 55px;
+    }
+    .people-saying-title p {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    #instructor h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .home-btn {
+        font-size: 14px;
+    }
+}
+
 
 /* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .img {
+        display: none;
+    }
+    .title-area h2 {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    ul.caret-square {
+        display: none;
+    }
+    .people-saying-title h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .about-item-area {
+        margin-bottom: 30px;
+    }
+    .people-saying .item-3 {
+        display: none;
+    }
+    .instructor-area {
+        border-right: none;
+    }
+    .home-ctn h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .home-ctn p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .instructor-area {
+        border-right: none;
+    }
+    .brand-img {
+        display: none;
+    }
+    .custom {
+        width: 50%;
+        padding: 0 15px;
+        text-align: center;
+    }
+}
+
+
+/* iPhone 5/SE Small Device :320px. */
+
+@media only screen and (min-width:320px) and (max-width: 576px) {
+    .testimonial-item {
+        margin-bottom: 70px;
+    }
+    .instructor-area {
+        border-right: none;
+    }
+    .home-ctn .span {
+        color: #f5b016;
+        font-size: 15px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+    .home-ctn h1 {
+        font-size: 26px;
+        line-height: 40px;
+        margin: 18px 0;
+    }
+    .home-ctn p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .home-btn {
+        padding: 12px 18px;
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .brand-img {
+        display: none;
+    }
+    .custom {
+        width: 50%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .about-item-area {
+        margin-bottom: 40px;
+    }
+    .title-area h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .card-body h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .discover-ctn h2 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .discover-ctn p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .dscvr-btn {
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+    .count {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .people-saying-title h2 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .text-right {
+        margin-top: -170px;
+    }
+    #instructor h2 {
+        font-size: 23px;
+        line-height: 18px;
+    }
+}

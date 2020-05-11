@@ -15,6 +15,8 @@
     <!-- all CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
 
 
 
@@ -32,7 +34,7 @@
     <!-- Add your site or application content here -->
 
     <!-- header section start-->
-    <header>
+    <header class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
@@ -44,22 +46,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#brand">brand</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">pages</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">news</a>
+                            <a class="nav-link" href="#discover">discover</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                     <form action="">
@@ -79,7 +81,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="home-ctn">
+                    <div class="home-ctn animate__animated animate__zoomIn">
                         <span class="span">#IMPROVING LIVES THROUGH LEARNING</span>
                         <h1>TOP CLASS LEARNING <br> FROM EVERYWHERE</h1>
                         <p>We believe everyone has the capacity to be creative. Turitor is a <br> place where people develop their own potential.</p>
@@ -93,22 +95,22 @@
     <!-- hero section end -->
 
     <!-- brand section start -->
-    <section id="brand" class="brand">
+    <section id="brand" class="brand animate__animated animate__zoomInDown animate__delay-1s">
         <div class="container">
             <div class="row">
-                <div class="col-md">
+                <div class="custom col-md brand-img-1">
                     <img src="img/brand/sponsor_logo1.png" alt="">
                 </div>
-                <div class="col-md">
+                <div class="custom col-md brand-img-2">
                     <img src="img/brand/sponsor_logo2.png" alt="">
                 </div>
-                <div class="col-md">
+                <div class="col-md img brand-img">
                     <img src="img/brand/sponsor_logo3.png" alt="">
                 </div>
-                <div class="col-md">
+                <div class="col-md img brand-img">
                     <img src="img/brand/sponsor_logo4.png" alt="">
                 </div>
-                <div class="col-md">
+                <div class="col-md img brand-img">
                     <img src="img/brand/sponsor_logo5.png" alt="">
                 </div>
             </div>
@@ -120,8 +122,8 @@
     <section id="about" class="about pd-tp pd-bm">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="about-item-area">
+                <div class="col-md-6 col-lg-3 ">
+                    <div class="about-item-area  animate__animated animate__flipInX animate__delay-2s">
                         <div class="about-item-1 about-item-style">
                             <img src="img/about/feature_icon1.png" alt="">
                             <h3>Online/Offline Classrooms</h3>
@@ -130,8 +132,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="about-item-area">
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-item-area animate__animated animate__flipInX animate__delay-2s">
                         <div class="about-item-2 about-item-style">
                             <img src="img/about/feature_icon2.png" alt="">
 
@@ -141,8 +143,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="about-item-area">
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-item-area animate__animated animate__flipInX animate__delay-2s">
                         <div class="about-item-3 about-item-style">
                             <img src="img/about/feature_icon3.png" alt="">
                             <h3>Lifetime Slack Chat Support</h3>
@@ -151,8 +153,8 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
-                    <div class="about-item-area">
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-item-area animate__animated animate__flipInX animate__delay-2s">
                         <div class="about-item-4 about-item-style">
                             <img src="img/about/feature_icon4.png" alt="">
                             <h3>Job Placement Support</h3>
@@ -168,15 +170,17 @@
     <!-- courses section start -->
     <section id="courses" class="courses pd-bm">
         <div class="container">
-            <div class="title-area">
+            <div class="title-area animate__animated animate__flipInY
+            animate__delay-3s">
                 <span>#TOP COURSES</span>
                 <h2>Find what Fascinates you</h2>
                 <p>Choose the most powerful courses and always be on demand.</p>
             </div>
 
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -217,8 +221,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -259,8 +264,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -301,8 +307,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -343,8 +350,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image5.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -386,8 +394,9 @@
                 </div>
 
 
-                <div class="col-md-4">
-                    <div class="card course-6" style="">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card course-6 animate__animated animate__rotateIn
+            animate__delay-3s" style="">
                         <img src="img/courses/course_image6.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <div class="course-category">Data & Tech</div>
@@ -439,7 +448,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="discover-ctn text-center">
+                    <div class="discover-ctn text-center animate__animated animate__jackInTheBox
+                    animate__delay-4s">
                         <h2>What will you Discover?</h2>
                         <p>Explore new skills, deepen existing passions, and get lost in creativity.What you find just <br> might surprise and inspire you. With so much to explore, real projects to create,and the <br> support f fellow-creatives, Turitor
                             empowers
@@ -457,7 +467,7 @@
     <section id="counting" class="counting-section pd-bm pd-tp text-center">
         <div class="container counting-ctn">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="counting-item">
                         <div id="shiva"><span class="count">506</span><span class="plus">+</span>
                             <p> Courses & videos</p>
@@ -465,7 +475,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="counting-item">
                         <div id="shiva"><span class="count">265</span><span class="plus">+</span>
                             <p> Expart teachers</p>
@@ -473,7 +483,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="counting-item">
                         <div id="shiva"><span class="count">4506</span><span class="plus">+</span>
                             <p>Students</p>
@@ -481,7 +491,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-md-6 col-lg-3">
                     <div class="counting-item">
                         <div id="shiva"><span class="count">310</span><span class="plus">+</span>
                             <p>Students</p>
@@ -499,14 +509,14 @@
     <section id="people-saying" class="people-saying ">
         <div class="container">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-sm-12 col-md-7 col-lg-10">
                     <div class="people-saying-title">
                         <span>#TESTIMONIAL</span>
                         <h2>What People are Saying About us</h2>
                         <p>Choose the most powerful courses and always be on demand.</p>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class=" col-md-5 col-lg-2 text-right">
                     <ul class="caret-square">
                         <li>
                             <a href="#"><i class="fas fa-caret-square-left"></i></a>
@@ -515,8 +525,9 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 ">
-                    <div class="testimonial-item item-1 text-center">
+                <div class="col-sm-6 col-md-6 col-lg-4 ">
+                    <div class="testimonial-item item-1 text-center animate__animated animate__zoomIn
+                    animate__delay-5s">
                         <ul>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -534,8 +545,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 ">
-                    <div class="testimonial-item  item-2 text-center">
+                <div class="col-sm-6 col-md-6 col-lg-4 ">
+                    <div class="testimonial-item  item-2 text-center animate__animated animate__zoomIn
+                    animate__delay-5s">
                         <ul>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -553,8 +565,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 ">
-                    <div class="testimonial-item  item-3 text-center">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="testimonial-item  item-3 text-center animate__animated animate__zoomIn
+                    animate__delay-5s">
                         <ul>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
                             <li><a href="#"><i class="fas fa-star"></i></a></li>
@@ -581,14 +594,16 @@
         <div class="container text-center pd-tp pd-bm ">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="instructor-area">
+                    <div class="instructor-area  animate__animated animate__slideInDown
+                    animate__delay-5s">
                         <h2> Become an Instructor</h2>
                         <p>We’ve got the solution: world-class training and development programs developed by top universities and companies. All on Turitor for Business We provide the tools and skills </p>
                         <button class="instructor-btn view-btn home-btn"><i class="fas fa-plus-circle"></i>start teaching today</button>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="turitor-area">
+                    <div class="turitor-area                      animate__animated animate__slideInDown
+                    animate__delay-5s">
                         <h2>Turitor for Business</h2>
                         <p>Get unlimited access to 4,000+ of Turitor’s top courses for your team. Our quality curriculum is designed with top-tier industry partners, not academics, so you learn the high.</p>
                         <button class="turitor-btn  home-btn"><i class="fas fa-user-plus"></i> get started</button>
@@ -608,6 +623,9 @@
     <!-- bootstrap JS -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+
 
     <!-- slick JS -->
 
